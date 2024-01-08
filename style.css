@@ -49,3 +49,277 @@ header{
 /*header section work end there--!*/
 
 /*fast section work start here*/
+
+
+/*catagort section style start*/
+
+.catagory{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width:100% ;
+}
+.catagory-text{
+    text-align: center;  
+    margin: 20px auto;  
+}
+.catagory-text h1{
+    color: #F00;    
+    font-family: Inter;
+    font-size: 80px;   
+    font-weight: 600;
+    
+}
+.catagory-text p{
+    color: #F00;    
+    font-family: Inter;
+    font-size: 20px;    
+    font-weight: 400;
+    
+    
+}
+.catagory-text h2{
+    color: #070211;   
+    font-family: Inter;
+    font-size: 40px;    
+    font-weight: 600;  
+    
+}
+.catagory-image{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    
+}
+/**/
+/*catagory section end*/
+/*wallcome section start*/
+.wallcome{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+.second-banner{
+    background-image: url(assets/Vectorrr.png);
+    width: 81%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+  
+   
+}
+.wallcome-text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start ;
+    flex-direction: column;
+    
+}
+.wallcome-text h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 50px;    
+    font-weight: 800;
+    line-height: 80px; 
+    letter-spacing: 6px;
+    padding-left: 20px;   
+    
+}
+.wallcome-text p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 15px;   
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 20px;    
+}
+.wallcome-text a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;   
+    font-weight: 700;   
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-bottom: 70px;
+}
+.wallcome-img{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                 
+}
+.wallcome-img img{
+    width: 300px;
+    height: 400px;
+}
+/*catagort section style end*/
+
+/* join section start*/
+.join{
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    background-image:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); ;
+    width: 81%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cont span{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 50px; 
+    text-transform: capitalize;
+}
+.cont p{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;    
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+.cont button{
+    width: 200px;
+    height: 60px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;   
+    font-weight: 700;  
+    text-transform: uppercase;
+    margin: 20px auto;
+    background-color: #F00;
+    border-radius: 8px;
+    border: none;
+}
+
+/* join contact style end */
+/* offer section style start*/
+.offer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-main{
+    width: 81%;
+    height: 100%;    
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.offer-text {
+    width: 30%;
+    display: flex;   
+    flex-direction: column;
+    text-align: start;
+
+} 
+.offer-text h3{
+    color: #F00;   
+    font-family: Inter;
+    font-size: 20px;    
+    font-weight: 400;   
+}
+.offer-text h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 35px;    
+    font-weight: 900;    
+    text-transform: capitalize;
+}
+
+.offer-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.offer-image{
+    width: 30%;
+    display: flex;   
+    flex-direction: column;
+    text-align: start;
+    border:10px solid red ;    
+    border-radius: 100%;
+}
+.offer-image img{
+    padding: 20px;
+}
+
+.offer-year{
+    width: 30%; 
+    display: flex;   
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.offer-year h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 30px;    
+    font-weight: 700;
+    
+}
+.offer-year p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 12px;  
+    font-weight: 400;
+    line-height: 32px; 
+    
+}
+.offer-year img{
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    
+}
+ /* offer section end */
+ 
+
+
+
+
+
+
+
+/* offer section style end*/
