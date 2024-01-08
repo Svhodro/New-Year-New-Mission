@@ -539,7 +539,7 @@ header{
     background-color: #F00;
 }
 
-/*suscrine main sectipon end */
+/*suscrine main section end */
 
 /*footer section start*/
 .conteinar{
@@ -563,7 +563,8 @@ header{
     width: 50%;   
     display: flex;
     justify-content: center;
-    align-items: flex-start;    
+    align-items: flex-start;
+    gap:220px;    
 }
 .addres-one p{
     color: #FFF;
@@ -612,6 +613,9 @@ svg{
     display: flex;
     justify-content: space-around;
     align-items: center; 
+    gap:220px;
+    
+    
 }
 .lastpart p{
     color: #FFF;
