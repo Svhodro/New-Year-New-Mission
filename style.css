@@ -423,6 +423,10 @@ header {
   width: 300px;
   height: 300px;
 }
+.sub-img img:hover {
+  border-radius: 100%;
+  
+}
 
 /* subscribe section start*/
 /* subscribe email section start*/
