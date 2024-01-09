@@ -427,6 +427,12 @@ header {
   border-radius: 100%;
   
 }
+.space-between{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
 
 /* subscribe section start*/
 /* subscribe email section start*/
